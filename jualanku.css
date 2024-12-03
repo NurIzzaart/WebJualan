@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+.navigasi {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    color: beige;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: beige;
+}
+
+.menu ul li a:hover{
+    color: #92a8d1;
+    font-style: italic;
+}
+
+.banner {
+    background-color: rgb(46,44,44);
+    height: 600px;
+    text-align: center;
+    color: beige;
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: #92a8d1;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: #92a8d1;
+    font-size: 70px;
+}
+
+@keyframes gerak {
+    0% {content: 'Selamat Datang';
+    }
+    50% {content: 'di JUALANKU';
+    }
+    100% {content: 'Selamat Berbelanja';
+    }
+}
+
+.box-jualanku {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    align-content: center;
+    background-color: rgb(46, 44, 44);
+}
+
+.box-jualanku h1 {
+    color: white;
+}
+
+.box-kiri img {
+    width: 150px;
+    height: 150px;
+}
+.box-tengah img {
+    width: 150px;
+    height: 150px;
+}
+.box-kanan img {
+    width: 150px;
+    height: 150px;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: blanchedalmond;
+    margin: 70px 20px 70px 100px;
+    padding: 30px 7px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: rgb(112, 107, 107);
+    color: beige;
+}
+
+}
+.box-keranjang h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color:white;
+}
+
+.box-keranjangtengah img {
+    width: 150px;
+    height: 150px;
+}
+
+.box-keranjangtengah {
+    width: 300px;
+    height: 320px;
+    background-color: blanchedalmond;
+    margin: 70px 100px 20px 540px;
+    padding: 30px 7px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+    
+
